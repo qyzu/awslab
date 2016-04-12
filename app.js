@@ -13,8 +13,3 @@ var urlMap = [
 var service = require("./lib/service").http(urlMap);
 
 service(PORT);
-
-var AWS = require('awssdk');
-
-AWS.config.loadFromPath('./config.json');
-//… function(
